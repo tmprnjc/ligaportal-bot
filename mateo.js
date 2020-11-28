@@ -35,7 +35,6 @@ class Bot {
             timeout: 15000,
             simple: false,
             resolveWithFullResponse: true,
-            proxy: "http://212.89.188.115:21231"
         })
 
         console.log(response.statusCode)
